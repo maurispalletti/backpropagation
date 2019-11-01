@@ -257,7 +257,7 @@ const backpropagation = () => {
 
     count++;
     // Break condition is to have accuracy higher than 87%.
-  } while (accuracy < 87);
+  } while (accuracy < 89);
 
   // Once finished with expected accuracy, print results in file
   logStream.write(`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n`);
